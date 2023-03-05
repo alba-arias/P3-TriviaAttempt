@@ -23,5 +23,5 @@ Si la respuesta elegida ha sido incorrecta, nos salta el mensaje: "This is INCOR
 Al hacer click sobre "Next Question" se actualiza el contador de puntos.
  
 ### PROBLEMAS
-Los siguientes problemas son cuestiones que **no se han abordado por el momento**:
+Los siguientes problemas son cuestiones que **no se han abordado por el momento**: <br>
 Al hacer click sobre un botón no se desactivan los demás, por lo que el usuario podrá seleccionar la respuesta correcta una vez que el mensaje le haya indicado cuál es.<br> Además, si se pulsa más de un botón los demás también se marcarán de azul oscuro.
