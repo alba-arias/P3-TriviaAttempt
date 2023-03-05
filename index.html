@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="estilos.css" />
+
+    <title>Trivia Game</title>
+  </head>
+  <body class="main">
+    <div class="centro">
+        <div class="cabecera">
+          <h1>Trivia Game</h1>
+          <div id="puntuacion">
+            Score: <span id="correctas">0</span>/ <span id="totales">5</span></div>
+          <p id="category"></p>
+        </div>
+        <div class="quiz-body">
+          <h3 id="question"><!--Preguntita--></h3>
+          <ul class="respuestas">
+            <!--
+            <li>RESPUESTA</li>
+            <li>RESPUESTA</li>
+            <li>RESPUESTA</li>
+            <li>RESPUESTA</li>-->
+          </ul>
+          <div id="resultado">
+            <!--Result here-->
+          </div>
+        </div>
+        <div id="end">
+          <button id="new-question">Next Question</button>
+          <button id="play-again">PLAY AGAIN</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
